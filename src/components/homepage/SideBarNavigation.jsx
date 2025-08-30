@@ -102,7 +102,7 @@ const SideBarNavigation = () => {
    </div>
    <div className='block sm:hidden'>
    <div
-      className={`h-16 bg-[#0F5AFF] fixed w-full top-0 z-50 flex justify-between px-4 transition-all duration-300 ${
+      className={`h-16 bg-[#0F5AFF] fixed w-full top-0 z-999 flex justify-between px-4 transition-all duration-300 ${
         isScrolled ? "items-center " : ""
       }`}
     >

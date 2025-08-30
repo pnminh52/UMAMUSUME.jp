@@ -4,6 +4,8 @@ import SideBarNavigation from './../components/homepage/SideBarNavigation';
 import Slider from './../components/homepage/Slider';
 import Table1 from './../components/homepage/table/Table1';
 import Table2 from './../components/homepage/table/Table2';
+import InstallTable from './../components/homepage/InstallTable';
+import Footer from './../components/etc/Footer';
 
 const Homepage = () => {
   return (
@@ -31,6 +33,8 @@ const Homepage = () => {
       <Slider />
       <Table1 />
       <Table2 />
+      <InstallTable />
+      <Footer />
     </div>
     <div className='block sm:hidden'>
       <SideBarNavigation />
@@ -38,6 +42,8 @@ const Homepage = () => {
       <Slider />
       <Table1 />
       <Table2 />
+      <InstallTable />
+      <Footer />
     </div>
    </div>
   )

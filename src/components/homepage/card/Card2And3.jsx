@@ -16,8 +16,8 @@ const Card2And3 = () => {
            <div className='flex items-center gap-2 px-2 w-full cursor-pointer justify-end'>
             <p className='text-[#B5D913] text-sm'> 詳細はコチラ </p>
            <div className='flex items-center'>
-           <svg className=' opacity-40' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
-           <svg className='rotate-0 -ml-1.5' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
+           <svg className=' opacity-50' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
+           <svg className='rotate-0 -ml-1' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
            </div>
 
           </div>
@@ -35,8 +35,8 @@ const Card2And3 = () => {
            <div className='flex items-center gap-2 px-2 w-full cursor-pointer justify-end'>
             <p className='text-[#B5D913] text-sm'> 詳細はコチラ </p>
            <div className='flex items-center'>
-           <svg className=' opacity-40' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
-           <svg className='rotate-0 -ml-1.5' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
+           <svg className=' opacity-50' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
+           <svg className='rotate-0 -ml-1' width={15} height={15} fill='#B5D913' data-v-7e1c1a78="" data-v-d56ccb73="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" class="nuxt-icon--fill" preserveAspectRatio="xMidYMid meet"><path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path></svg>
            </div>
 
           </div>

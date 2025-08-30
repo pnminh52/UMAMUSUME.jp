@@ -22,7 +22,7 @@ const Card6 = () => {
         <svg className="w-4 h-4 opacity-50" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" preserveAspectRatio="xMidYMid meet">
           <path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path>
         </svg>
-        <svg className="w-4 h-4 -ml-1.5" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" preserveAspectRatio="xMidYMid meet">
+        <svg className="w-4 h-4 -ml-1" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 48.19" preserveAspectRatio="xMidYMid meet">
           <path d="m7.76 48.19-7.59-7.6 16.41-16.41L0 7.6 7.6 0l24.18 24.18z"></path>
         </svg>
       </div>
