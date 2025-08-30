@@ -3,6 +3,7 @@ import Banner from './../components/homepage/Banner';
 import SideBarNavigation from './../components/homepage/SideBarNavigation';
 import Slider from './../components/homepage/Slider';
 import Table1 from './../components/homepage/table/Table1';
+import Table2 from './../components/homepage/table/Table2';
 
 const Homepage = () => {
   return (
@@ -29,12 +30,14 @@ const Homepage = () => {
       </div>
       <Slider />
       <Table1 />
+      <Table2 />
     </div>
     <div className='block sm:hidden'>
       <SideBarNavigation />
       <Banner />
       <Slider />
       <Table1 />
+      <Table2 />
     </div>
    </div>
   )
