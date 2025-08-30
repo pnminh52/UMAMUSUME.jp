@@ -10,7 +10,7 @@ const Card8And9 = () => {
      <div className='cursor-pointer group relative '>
           <div className='absolute -top-9 z-100 -left-3 flex justify-center items-center w-65 h-12 bg-[#FF712F] transform -skew-x-15'>
           <p className='text-white text-2xl w-65 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          Contents コンテンツ
+          Special スペシャル
           </p>
         </div>
        <div className='w-full h-auto border-3 border-[#FF712F] rounded-xl  overflow-hidden'>
@@ -44,7 +44,7 @@ const Card8And9 = () => {
      <div className='cursor-pointer group relative '>
               <div className='absolute -top-9 z-100 -left-3 flex justify-center items-center w-65 h-12 bg-[#FFC833] transform -skew-x-15'>
               <p className='text-white text-2xl w-65 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-              Contents コンテンツ
+              Goods グッズ
               </p>
             </div>
            <div className='w-full h-auto border-3 border-[#FFC833] rounded-xl  overflow-hidden'>
