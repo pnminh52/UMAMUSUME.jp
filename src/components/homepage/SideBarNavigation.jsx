@@ -82,7 +82,7 @@ const SideBarNavigation = () => {
     </li>
   ))}
 </ul>
-<p className='absolute left-4 text-[12px] text-white cursor-pointer bottom-42 rotate-90 space-y-5'>Official SNS</p>
+<p className='absolute left-4 text-[12px] text-white cursor-pointer bottom-40 rotate-90 space-y-5'>Official SNS</p>
 <ul className="absolute left-8 bottom-6 space-y-2">
   {[
     { label: "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f0a9bf74eae84e1d82b9a2d5ae9e4195/icon_x.svg" },
