@@ -10,7 +10,7 @@ const Table1 = () => {
       <div className="hidden sm:block">
         <div className="px-30 flex gap-20 items-center justify-center">
           <div className="w-[50%] h-auto space-y-4 relative border-3 px-0 pt-4 pb-4 bg-[#FFEFF7] rounded-xl border-[#FF79D0] ">
-            <div className="absolute -top-9 -left-3 flex justify-center items-center w-55 h-12 bg-[#FF79D0] transform -skew-x-15 ">
+            <div className="absolute -top-7 -left-3 flex justify-center items-center w-55 h-10 bg-[#FF79D0] transform -skew-x-15 ">
               <p className=" text-white text-2xl w-60 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 News 新着情報
               </p>

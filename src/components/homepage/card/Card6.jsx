@@ -6,7 +6,7 @@ import React from 'react';
 const Card6 = () => {
   return (
     <div className='cursor-pointer group relative '>
-          <div className='absolute -top-9 z-100 -left-3 flex justify-center items-center w-65 h-12 bg-[#4CAEFF] transform -skew-x-15'>
+          <div className='absolute -top-7 z-100 -left-3 flex justify-center items-center w-65 h-10 bg-[#4CAEFF] transform -skew-x-15'>
           <p className='text-white text-2xl w-65 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
           Contents コンテンツ
           </p>

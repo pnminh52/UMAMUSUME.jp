@@ -5,7 +5,7 @@ const HoverCard = ({ title, color, image }) => {
     <div className="cursor-pointer group relative">
       {/* Title Label */}
       <div
-        className={`absolute z-20 -top-9 -left-3 flex justify-center items-center h-12 transform -skew-x-15`}
+        className={`absolute z-20 -top-7 -left-3 flex justify-center items-center h-10 transform -skew-x-15`}
         style={{ backgroundColor: color, width: "15rem" }}
       >
         <p className="text-white text-2xl w-65 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
