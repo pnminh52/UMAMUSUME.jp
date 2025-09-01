@@ -9,13 +9,13 @@ const Table2 = () => {
 
   return (
     <div className='px-6 sm:px-30 relative'>
-      <div>
+      <div className=''>
         <Card7 />
         <Card8And9 />
       </div>
       <button 
         onClick={scrollToTop}
-        className='hidden sm:block absolute right-4 bottom-4'
+        className='hidden cursor-pointer sm:block absolute right-4 bottom-4'
       >
         <img 
           className='w-13 cursor-pointer' 

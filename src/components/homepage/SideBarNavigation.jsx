@@ -123,7 +123,7 @@ const SideBarNavigation = () => {
       <div className="flex flex-col items-center justify-center">
         <svg
           fill="#fff"
-          className="w-8 h-8"
+          className="w-7 h-7"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 108 112"
           preserveAspectRatio="xMidYMid meet"

@@ -5,9 +5,9 @@ const Card7 = () => {
     <div>
         <div className="hidden sm:block">
         <div className="cursor-pointer group relative ">
-      <div className="absolute -top-9 z-100 -left-3 flex justify-center items-center w-55 h-12 bg-[#8C83FF] transform -skew-x-15">
-        <p className="text-white text-2xl w-60 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          About 新着情報
+      <div className="absolute -top-9 z-100 -left-3 flex justify-center items-center w-70 h-12 bg-[#8C83FF] transform -skew-x-15">
+        <p className="text-white text-2xl w-65 text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        Character キャラクター
         </p>
       </div>
       <div className="w-full h-auto border-3 border-[#8C83FF] rounded-xl  overflow-hidden">
