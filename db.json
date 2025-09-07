@@ -1,12 +1,32 @@
 {
    "news":[
     {
-        "id":1,
-        "title":"",
-        "des":"",
-        "bannerImg":""
-        
-
-    }
+        "id": 1,
+        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2733/Thumbnail/announce_banner_3366.png?c=20250825121615",
+        "tag": "Game",
+        "date": "2025.09.01  12:00",
+        "title": "トゥインクルコレクション プリティーダービーガチャとSSR確定スタミナガチャ開催！"
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2739/Thumbnail/banner_60300023.png?c=20250825183926",
+        "tag": "Game",
+        "date": "2025.09.01  12:00",
+        "title": "一部育成ウマ娘に進化スキル追加！"
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2731/Thumbnail/announce_banner_3364.png?c=20250825121706",
+        "tag": "Game",
+        "date": "2025.08.29 12:00",
+        "title": "育成ウマ娘&サポートカード新登場！ピックアップガチャ開催！"
+      },
+      {
+        "id": 4,
+        "imgUrl": null,
+        "tag": "Event",
+        "date": "2025.08.28 18:00",
+        "title": "「トゥインクルコレクション プリティーダービー」開催！"
+      }
    ]
 }

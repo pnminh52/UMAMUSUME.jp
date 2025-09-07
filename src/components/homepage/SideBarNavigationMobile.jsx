@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 const SideBarNavigationMobile = ({ isScrolled }) => {
+    const location = useLocation()
     const navigate=useNavigate()
   const [showPopup, setShowPopup] = useState(false);
 const svg=(
@@ -23,10 +25,11 @@ const svg=(
             fill="white"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 510.24 110.71"
-            className={`transition-all duration-300 cursor-pointer ease-in-out
+            className={`transition-all z-999 duration-300 cursor-pointer ease-in-out
     ${isScrolled ? "w-35 h-35 translate-y-0" : ""}
-    ${showPopup && !isScrolled ? "w-35 h-35 -translate-y-9" : ""}
-    ${!showPopup && !isScrolled ? "w-50 h-23 translate-y-2" : ""}
+        ${showPopup && !isScrolled ? "w-35 h-35 -translate-y-9" : ""}
+        ${!showPopup && !isScrolled && location.pathname === "/" ? "w-50 h-23 translate-y-2" : ""}
+        ${!showPopup && !isScrolled && location.pathname !== "/" ? "w-35 h-35 -translate-y-9" : ""}
   `}
             preserveAspectRatio="xMidYMid meet"
           >
@@ -67,7 +70,7 @@ const svg=(
                 ✕
               </button> */}
               <ul className="px-4 py-0 mb-8">
-                <li className=" gap-2 text-white  text-4xl font-semibold italic border-b h-16 border-white  flex items-center">{svg}News</li>
+                <li onClick={()=>navigate("/news")} className=" gap-2 text-white  text-4xl font-semibold italic border-b h-16 border-white  flex items-center">{svg}News</li>
                 <li className=" gap-2 text-white  text-4xl font-semibold italic border-b h-16 border-white  flex items-center">{svg}About</li>
                 <li className=" gap-2 text-white  text-4xl font-semibold italic border-b h-16 border-white  flex items-center">{svg}Contents</li>
                 <li className=" gap-2 text-white  text-4xl font-semibold italic border-b h-16 border-white  flex items-center">{svg}Character</li>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNews } from "../../../hooks/useNews";
 
 const Card = ({ imgUrl, tag, date, title, showIcon  }) => (
   <div className="">
@@ -82,6 +83,7 @@ const posts = [
 ];
 
 const Card1 = () => {
+  
   return (
     <div className="p-4 space-y-4">
       {posts.map((post, index) => (
