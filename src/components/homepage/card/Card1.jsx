@@ -1,5 +1,4 @@
 import React from "react";
-import { useNews } from "../../../hooks/useNews";
 
 const Card = ({ imgUrl, tag, date, title, showIcon  }) => (
   <div className="">
@@ -59,11 +58,55 @@ const posts = [
     title: "トゥインクルコレクション プリティーダービーガチャとSSR確定スタミナガチャ開催！",
   },
   {
+    id: 56723,
+    imgUrl: "https://prd-info-umamusume.akamaized.net/announce/2755/Thumbnail/banner_31200005.png?c=20250904110219",
+    tag: "Game",
+    date: "2025.09.08  12:00",
+    title: "イベント「アグネスタキオンの因子研究」開催予告！",
+  },
+  {
+    id: 6,
+    imgUrl: null,
+    tag: "Media",
+    date: "2025.08.26 10:00",
+    title: "公式YouTubeチャンネルにて最新PV公開！",
+  },
+  {
+    id: 45475,
+    imgUrl: "https://prd-info-umamusume.akamaized.net/announce/2738/Thumbnail/banner_30200455.png?c=20250825175905",
+    tag: "Game",
+    date: "2025.09.04  12:00",
+    title: "レジェンドレース開催！",
+  },
+  {
+    id: 5,
+    imgUrl: null,
+    tag: "News",
+    date: "2025.08.27 15:00",
+    title: "新機能「チーム対抗戦」近日公開予定！",
+  },
+
+  
+  {
+    id: 1312,
+    imgUrl: "https://prd-info-umamusume.akamaized.net/announce/2719/Thumbnail/banner_214300001.png?c=20250904185655",
+    tag: "Game",
+    date: "2025.08.27  12:00",
+    title: "「めにしゅき♡ラッシュっしゅ！」ライブ公開＆新衣装追加！",
+  },
+  {
     id: 2,
     imgUrl: "https://prd-info-umamusume.akamaized.net/announce/2739/Thumbnail/banner_60300023.png?c=20250825183926",
     tag: "Game",
     date: "2025.09.01  12:00",
     title: "一部育成ウマ娘に進化スキル追加！",
+  },
+  {
+    id: 7,
+    imgUrl: null,
+    tag: "Event",
+    date: "2025.08.25 20:00",
+    title: "ゲーム内で期間限定イベント開始のお知らせ",
   },
   {
     id: 3,

@@ -40,7 +40,7 @@ const Homepage = () => {
           <Logo />
         </div>
 
-     <NavigationScroll />
+     {/* <NavigationScroll /> */}
        
 
         <Content />

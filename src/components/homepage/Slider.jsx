@@ -13,6 +13,7 @@ const Slider = () => {
     { id: 3, imageUrl: "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/6eee3403642547db88b0d2dc21cd8efa/slider_golshi-chan_comics-5.jpg?fm=webp" },
     { id: 4, imageUrl: "https://img.youtube.com/vi/sGrNw69DPwc/maxresdefault.jpg" },
     { id: 5, imageUrl: "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cef0da24b80640669199e21c3a402e29/slider_tnf-autumn.jpg?fm=webp" },
+    {id:6, imageUrl:"https://img.youtube.com/vi/85LZ4HeCVeo/maxresdefault.jpg"}
   ];
 
   return (

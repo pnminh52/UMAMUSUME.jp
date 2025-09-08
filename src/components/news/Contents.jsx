@@ -1,12 +1,8 @@
 import React from 'react'
-import { useNews } from '../../hooks/useNews'
 import SideBarNavigation from './../homepage/SideBarNavigation';
 
-const Contents = () => {
-    const { news, loading, error } = useNews()
-
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>{error}</p>
+const Contents = ({news}) => {
+   
     
     return (
       <div>
