@@ -10,11 +10,14 @@ const Contents = ({news}) => {
       
         <div className='space-y-4'>
         {news.map(item => {
+          
           const itemDate = item.date.split(" ")[0]; 
           const isToday = itemDate === todayStr;
 
           return(
-            <div className=" relative bg-white hover:scale-97 cursor-pointer ease-in-out duration-300 transition p-2 shadow-lg rounded-lg">
+            <div 
+            key={item.id}
+            className=" relative bg-white hover:scale-97 cursor-pointer ease-in-out duration-300 transition p-2 shadow-lg rounded-lg">
             {isToday && (
                     <img
                     src="https://umamusume.jp/_nuxt/images/icon_news-d6W4K9nE.png"

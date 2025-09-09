@@ -60,7 +60,7 @@ const Card7 = () => {
 </div>
 
 
-  <div class="bg-[#131B4C] relative col-start-3 col-span-1 row-start-1 row-span-1">
+  <div className="bg-[#131B4C] relative col-start-3 col-span-1 row-start-1 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#F7EB49] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
         Calstone Light O
@@ -73,7 +73,7 @@ const Card7 = () => {
     <img className="absolute z-10" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/cdb7b900f3d547d2ae4980d7fe6cc56c/calstonelighto_top.png" alt="" />
   </div>
 
-  <div class="bg-[#F271C4] relative col-start-4 col-span-1 row-start-1 row-span-1">
+  <div className="bg-[#F271C4] relative col-start-4 col-span-1 row-start-1 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#FBE415] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
        T.M. Opera O
@@ -85,7 +85,7 @@ const Card7 = () => {
     <div className="absolute bottom-0 w-full h-7 z-3 bg-[#FBE415]"></div>
     <img className="absolute z-10" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a89734b734e542d392146a6801c5833c/tmoperao_top.png" alt="" />
   </div>
-  <div class=" relative bg-[#63666A] col-start-5 col-span-1 row-start-1 row-span-1">
+  <div className=" relative bg-[#63666A] col-start-5 col-span-1 row-start-1 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#6F2678] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
       Shinko Windy
@@ -97,7 +97,7 @@ const Card7 = () => {
     <div className="absolute bottom-0 w-full h-7 z-3 bg-[#6F2678]"></div>
     <img className="absolute z-10" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2e36851a1b614f7da975165cb21c21bb/shinkowindy_top.png" alt="" />
   </div>
-  <div class="bg-[#14BAAE] relative col-start-6 col-span-1 row-start-1 row-span-1">
+  <div className="bg-[#14BAAE] relative col-start-6 col-span-1 row-start-1 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#7C4D3A] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
      Mejiro Ryan
@@ -109,7 +109,7 @@ const Card7 = () => {
     <div className="absolute bottom-0 w-full h-7 z-3 bg-[#7C4D3A]"></div>
     <img className="absolute z-10" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f2e49e8ecbd74b3aaadcffe43d23be10/mejiroryan_top.png" alt="" />
   </div>
-  <div class="bg-[#1C7763] relative col-start-7 col-span-1 row-start-1 row-span-1">
+  <div className="bg-[#1C7763] relative col-start-7 col-span-1 row-start-1 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#C6314B] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
     Symboli Rudolf
@@ -136,7 +136,7 @@ const Card7 = () => {
   </div>
 
  
-  <div class="bg-[#BF3344] relative  col-start-3 col-span-1 row-start-3 row-span-1">
+  <div className="bg-[#BF3344] relative  col-start-3 col-span-1 row-start-3 row-span-1">
     
   <div className="absolute right-0 w-7 h-full z-3 bg-[#4E4E4E] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
@@ -148,7 +148,7 @@ const Card7 = () => {
 
     <div className="absolute bottom-0 w-full h-7 z-3 bg-[#4E4E4E]"></div><img className="absolute z-10"  src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/1c3308dd06c2424fb802d21091822bf0/duramente_top.png" alt="" />
   </div>
-  <div class="bg-[#D93842] relative col-start-1 col-span-1 row-start-3 row-span-1">
+  <div className="bg-[#D93842] relative col-start-1 col-span-1 row-start-3 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#293AAB] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
    Espoir City
@@ -160,7 +160,7 @@ const Card7 = () => {
     <div className="absolute bottom-0 w-full h-7 z-3 bg-[#293AAB]"></div>
     <img className="absolute z-10"  src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/62e88e67f53e49b6948c639a3de26008/espoircity_top.png" alt="" />
   </div>
-  <div class="bg-[#2A8E6E] relative col-start-2 col-span-1 row-start-3 row-span-1">
+  <div className="bg-[#2A8E6E] relative col-start-2 col-span-1 row-start-3 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#D75938] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
    Akasaka Misato
@@ -185,7 +185,7 @@ const Card7 = () => {
     <img className="z-10 absolute" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/78460c922ac94f9b95fcc85a34800d40/admiregroove_top.png" alt="" />
   </div>
 
-  <div class="relative bg-[#E97D97] col-start-6 col-span-1 row-start-2 row-span-1">
+  <div className="relative bg-[#E97D97] col-start-6 col-span-1 row-start-2 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#119D76] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
     Dantsu Flame
@@ -198,7 +198,7 @@ const Card7 = () => {
     <img className="z-10 absolute" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/9e6123cbe84a4576a37d74565e27a8db/dantsuflame_top.png" alt="" />
   </div>
 
-  <div class="relative bg-[#EA5BC0] col-start-7 col-span-1 row-start-2 row-span-1">
+  <div className="relative bg-[#EA5BC0] col-start-7 col-span-1 row-start-2 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#8F3D7D] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
     Narita Top Road
@@ -211,7 +211,7 @@ const Card7 = () => {
     <img className="z-10 absolute" src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/716855be31a2426298067becbef16587/naritatoproad_top.png" alt="" />
   </div>
 
-  <div class="bg-[#54498C] relative col-start-6 col-span-1 row-start-3 row-span-1">
+  <div className="bg-[#54498C] relative col-start-6 col-span-1 row-start-3 row-span-1">
   <div className="absolute right-0 w-7 h-full z-3 bg-[#8B9096] flex items-center justify-center">
       <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
     Kashimoto Riko
@@ -251,7 +251,7 @@ const Card7 = () => {
       </div>
       <div className="w-full h-auto border-3 border-[#8C83FF] rounded-xl overflow-hidden">
 
-  <div class="grid grid-cols-4 grid-rows-4 gap-0">
+  <div className="grid grid-cols-4 grid-rows-4 gap-0">
 
   <div className="bg-[#FA7395] relative col-start-1 col-end-3 row-start-1 row-end-3 aspect-[2/2]">
   <div className="absolute right-0 w-7 h-full z-10 bg-[#EDE04B] flex items-center justify-center">
@@ -270,7 +270,7 @@ const Card7 = () => {
 </div>
 
 
-<div class="bg-[#4F64D8] relative col-start-3 col-end-4 row-start-1 row-end-2">
+<div className="bg-[#4F64D8] relative col-start-3 col-end-4 row-start-1 row-end-2">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#E63471] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
        Daiwa Scarlet
@@ -284,7 +284,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#AF7E51] relative col-start-4 col-end-5 row-start-1 row-end-2">
+<div className="bg-[#AF7E51] relative col-start-4 col-end-5 row-start-1 row-end-2">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#C1D1E3] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Yukino Bijin
@@ -298,7 +298,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#D94149] relative col-start-4 col-end-5 row-start-2 row-end-3">
+<div className="bg-[#D94149] relative col-start-4 col-end-5 row-start-2 row-end-3">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#CDDEE0] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Dream Journey
@@ -312,7 +312,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#B02D40] relative col-start-3 col-end-4 row-start-2 row-end-3">
+<div className="bg-[#B02D40] relative col-start-3 col-end-4 row-start-2 row-end-3">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#5D88EE] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Agnes Tachyon
@@ -326,7 +326,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#F171C3] relative col-start-1 col-end-2 row-start-3 row-end-4">
+<div className="bg-[#F171C3] relative col-start-1 col-end-2 row-start-3 row-end-4">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#F1DB14] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Sirius Symboli
@@ -340,7 +340,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#C52D29] relative col-start-2 col-end-3 row-start-3 row-end-4">
+<div className="bg-[#C52D29] relative col-start-2 col-end-3 row-start-3 row-end-4">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#533C3D] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Silence Suzuka
@@ -354,7 +354,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#CF4436] relative col-start-1 col-end-2 row-start-4 row-end-5">
+<div className="bg-[#CF4436] relative col-start-1 col-end-2 row-start-4 row-end-5">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#8B9096] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Bamboo Memory
@@ -368,7 +368,7 @@ const Card7 = () => {
     alt=""
   />
 </div>
-<div class="bg-[#E26ECB] relative col-start-2 col-end-3 row-start-4 row-end-5">
+<div className="bg-[#E26ECB] relative col-start-2 col-end-3 row-start-4 row-end-5">
     <div className="absolute right-0 w-4 h-full z-10 bg-[#E1DCCB] flex items-center justify-center">
     <p className="text-white font-semibold text-[10px] w-30 flex transform rotate-90 whitespace-nowrap">
       Orfervre
@@ -383,7 +383,7 @@ const Card7 = () => {
   />
 </div>
 
-<div class="bg-[#94BF01] relative col-start-3 col-end-5 row-start-3 row-end-5">
+<div className="bg-[#94BF01] relative col-start-3 col-end-5 row-start-3 row-end-5">
     <div className="absolute right-0 w-7 h-full z-10 bg-[#F6EB61] flex items-center justify-center">
     <p className="text-white font-semibold text-sm w-30 flex transform rotate-90 whitespace-nowrap">
       Satono Diamond

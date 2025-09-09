@@ -10,32 +10,30 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Chặn chuột phải
     const handleContextMenu = (e) => e.preventDefault();
     document.addEventListener("contextmenu", handleContextMenu);
-
-    return () => {
-      document.removeEventListener("contextmenu", handleContextMenu);
-    };
+    return () => document.removeEventListener("contextmenu", handleContextMenu);
   }, []);
 
   return (
     <Router>
-      {loading ? (
-        <Loader onComplete={() => setLoading(false)} />
-      ) : (
-        <Routes>
-          {/* Dùng UserLayout cho tất cả route */}
+      <Routes>
+        {loading ? (
+          <Route
+            path="*"
+            element={<Loader onComplete={() => setLoading(false)} />}
+          />
+        ) : (
           <Route path="/" element={<UserLayout />}>
             <Route index element={<Homepage />} />
             <Route path="news" element={<News />} />
             <Route path="about" element={<About />} />
-
           </Route>
-        </Routes>
-      )}
+        )}
+      </Routes>
     </Router>
   );
 }
+
 
 export default App;
