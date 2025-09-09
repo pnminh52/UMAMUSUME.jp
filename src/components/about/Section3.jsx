@@ -35,7 +35,7 @@ const Section3 = () => {
                           border-l-[200px] border-l-transparent 
                           border-b-[100px] border-b-[#FFEE48]">
                     </div>
-                    {/* <div className="relative top-20 left-4 gap-4 flex flex-col ">
+                    <div className="relative top-20 left-4 gap-4 flex flex-col ">
            <div className='flex items-center'>
            <p className="text-sm text-[#FF6ECB] bg-white pr-8 py-3">
               <span className="text-lg">「 ウマ娘 プロジェクト 」</span>とは？
@@ -45,7 +45,7 @@ const Section3 = () => {
             <p className='text-sm w-3/4 text-white'>別世界の名前と魂を受け継いで、“尻尾と耳”そして“超人的な走力”を持つ。教育機関である「トレセン学園」に集い、“自身の夢”と“レース”に向けて仲間たちと日々切磋琢磨している。</p>
        <p className="text-sm text-white underline italic"><Link to={"/character"}>Character </Link></p>
 
-          </div> */}
+          </div>
                     <div className="w-50 h-6 bg-gray-200 transform -rotate-30 opacity-55 -left-30 bottom-40 absolute skew-x-38"></div>
 
 
