@@ -14,7 +14,6 @@ export const useNews = () => {
         if (!res.ok) throw new Error("Failed to fetch news");
         const data = await res.json();
   
-        // vì API trả về mảng -> set trực tiếp
         setNews(data); 
       } catch (err) {
         setError(err.message);
