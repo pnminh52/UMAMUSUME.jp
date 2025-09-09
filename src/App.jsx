@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage";
 import Loader from "./components/etc/Loader";
 import { useState, useEffect } from "react";
 import News from "./pages/News";
+import UserLayout from "./layouts/UserLayout";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,12 +20,15 @@ function App() {
 
   return (
     <Router>
-      {loading && <Loader onComplete={() => setLoading(false)} />}
-      {!loading && (
+      {loading ? (
+        <Loader onComplete={() => setLoading(false)} />
+      ) : (
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/news" element={<News />} />
- 
+          {/* Dùng UserLayout cho tất cả route */}
+          <Route path="/" element={<UserLayout />}>
+            <Route index element={<Homepage />} />
+            <Route path="news" element={<News />} />
+          </Route>
         </Routes>
       )}
     </Router>

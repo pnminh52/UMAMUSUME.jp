@@ -1,7 +1,10 @@
 import React from "react";
+import InstallTable from './../homepage/InstallTable';
 
 const Footer = () => {
   return (
+    <div>
+      <div><InstallTable /></div>
     <div className="py-10">
         <div className="block sm:hidden">
         <div className="flex flex-wrap mx-auto justify-center  items-center gap-4 w-full sm:w-auto">
@@ -73,7 +76,7 @@ const Footer = () => {
     
   
      <div className="hidden sm:block">
-         <div className="flex items-center gap-4 w-full sm:w-auto">
+         <div className="flex  items-center gap-4 w-full sm:w-auto">
                 <img
                   className="h-20 w-auto object-cover shadow-xl cursor-pointer"
                   src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/283dbe3bd10c4ef1af6ec464ed474bd5/banner_1.png"
@@ -130,7 +133,7 @@ const Footer = () => {
       >
         {item}
       </a>
-      {index !== 9 && <span className="mx-1">|</span>} {/* trừ item cuối */}
+      {index !== 9 && <span className="mx-1">|</span>} 
     </React.Fragment>
   ))}
 </div>
@@ -161,6 +164,7 @@ const Footer = () => {
 <img className="w-30 h-auto object-cover" src="https://parts.cygames.co.jp/assets/images/cygames_copyright_regular.svg" alt="" />
     </div>
   </div>
+    </div>
   
   );
 };

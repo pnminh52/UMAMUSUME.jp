@@ -8,12 +8,12 @@ const Loader = ({ onComplete }) => {
   useEffect(() => {
     if (location.pathname !== "/") return;
 
-    const interval = setInterval(() => {
+    let interval = setInterval(() => {
       setPercent((prev) => {
         if (prev >= 100) {
           clearInterval(interval);
-          onComplete();
-          return 100;
+          onComplete(); // chỉ gọi 1 lần khi hoàn tất
+          return 200;
         }
         return prev + 1;
       });
@@ -22,16 +22,25 @@ const Loader = ({ onComplete }) => {
     return () => clearInterval(interval);
   }, [location.pathname, onComplete]);
 
-  if (location.pathname !== "/") return null; 
+  // Không hiện loader ngoài trang "/"
+  // if (location.pathname !== "/") return null;
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50">
       <img
-        className="w-60"
+        className="w-50"
         src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/69446b91ccca41efb945cf7a3c69431a/32_agnestachyon.webp"
-        alt=""
+        alt="Loader"
       />
-      <p className="text-2xl font-semibold italic">読み込み中</p>
+      <p className="text-xl font-semibold italic mt-0">読み込み中</p>
+
+      {/* Progress bar */}
+      {/* <div className="w-64 h-2 bg-gray-200 rounded mt-6 overflow-hidden">
+        <div
+          className="h-full bg-black transition-all duration-100 ease-linear"
+          style={{ width: `${percent}%` }}
+        ></div>
+      </div> */}
     </div>
   );
 };

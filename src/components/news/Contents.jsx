@@ -1,14 +1,11 @@
 import React from 'react'
-import SideBarNavigation from './../homepage/SideBarNavigation';
 
 const Contents = ({news}) => {
    
     
     return (
       <div>
-        <div className='block sm:hidden'>
-            <SideBarNavigation />
-        </div>
+      
         <div className='space-y-4'>
         { news.map(item => (
           
@@ -20,25 +17,33 @@ const Contents = ({news}) => {
      
          <div className="py-2 px-2 space-y-1">
            <div className="flex items-center justify-between w-full">
+            
              <p
-               className="px-5 h-5 rounded-full bg-[#B5D913] uppercase text-white flex justify-center items-center text-sm"
-               style={{ letterSpacing: "0.2em" }}
-             >
-             GAME
-             </p>
-             <p className="font-bold text-sm text-[#B5D913]">{item.date}</p>
+  className={`px-5 h-5 rounded-full uppercase text-white flex justify-center items-center text-sm ${
+    item.tag === "Media" ? "bg-[#FF911C]" : "bg-[#B5D913]"
+  }`}
+  style={{ letterSpacing: "0.2em" }}
+>
+  {item.tag}
+</p>
+
+             <p className={`font-bold text-sm ${
+    item.tag === "Media" ? "text-[#FF911C]" : "text-[#B5D913]"
+  }`}>{item.date}</p>
            </div>
            <p className="text-xs sm:text-sm">{item.title}</p>
          </div>
      
          <div className="flex items-center gap-1 px-2 w-full justify-end">
-           <p className="text-[#B5D913] text-xs sm:text-sm">詳細はコチラ</p>
+           <p className={`text-[#B5D913] text-xs sm:text-sm ${
+    item.tag === "Media" ? "text-[#FF911C]" : "text-[#B5D913]"
+  }`}>詳細はコチラ</p>
            <div className="flex items-center">
              {[...Array(2)].map((_, i) => (
                <svg
                  key={i}
                  className={`${i === 0 ? "opacity-40" : "rotate-0 -ml-1"} w-[13px] h-[13px] sm:w-[15px] sm:h-[15px]`}
-                 fill="#B5D913"
+                 fill={item.tag === "Media" ? "#FF911C" : "#B5D913"}
                  xmlns="http://www.w3.org/2000/svg"
                  viewBox="0 0 31.78 48.19"
                  preserveAspectRatio="xMidYMid meet"

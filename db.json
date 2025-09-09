@@ -1,6 +1,27 @@
 {
    "news":[
     {
+      "id": 1212,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2754/Thumbnail/announce_banner_3368.png?c=20250908121928",
+      "tag": "Game",
+      "date": "2025.09.09  12:00",
+      "title": "育成ウマ娘&サポートカード新登場！ピックアップガチャ開催！"
+    },
+    {
+      "id": 3434,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2758/Thumbnail/banner_21410001.png?c=20250904191334",
+      "tag": "Game",
+      "date": "2025.09.09  12:00",
+      "title": "「4.5th Anniversaryキャンペーン第3弾」開催！"
+    },
+    {
+      "id": 343432,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2756/Thumbnail/banner_31200006.png?c=20250904110322",
+      "tag": "Game",
+      "date": "2025.09.09  12:00",
+      "title": "イベント「アグネスタキオンの因子研究」開催中！"
+    },
+    {
         "id": 1,
         "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2733/Thumbnail/announce_banner_3366.png?c=20250825121615",
         "tag": "Game",
@@ -24,7 +45,7 @@
       {
         "id": 4,
         "imgUrl": null,
-        "tag": "Event",
+        "tag": "Media",
         "date": "2025.08.28 18:00",
         "title": "「トゥインクルコレクション プリティーダービー」開催！"
       }

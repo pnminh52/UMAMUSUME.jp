@@ -5,12 +5,13 @@ import Contents from './../components/news/Contents';
 import NewsFilter from './../components/news/NewsFilter';
 import Title from './../components/news/Title';
 import { useNews } from '../hooks/useNews';
+import Loader from './../components/etc/Loader';
 
 const News = () => {
   const { news, loading, error } = useNews()
   const [filterTag, setFilterTag] = useState("")
 
-  if (loading) return <p>Loading...</p>
+  if (loading) return <Loader />
   if (error) return <p>{error}</p>
 
   const filteredNews = filterTag 
@@ -19,10 +20,10 @@ const News = () => {
 
   return (
     <div>
-      <div className="block sm:hidden">
+      {/* <div className="block sm:hidden">
         <SideBarNavigationMobile />
-      </div>
-      <div className=" px-4 space-y-8 py-8">
+      </div> */}
+      <div className="bg-gray-100 px-4 space-y-8 py-8">
         <Title />
         <NewsFilter onFilter={setFilterTag} />
         <Contents news={filteredNews} />

@@ -17,8 +17,8 @@ const Content = () => (
     <Slider />
     <Table1 />
     <Table2 />
-    <InstallTable />
-    <Footer />
+    {/* <InstallTable /> */}
+    {/* <Footer /> */}
   </>
 );
 
@@ -27,7 +27,7 @@ const Homepage = () => {
 
 
   return (
-    <div className="h-300">
+    <div className="">
       {/* Desktop layout */}
       <div className="hidden sm:block">
         <div className="flex h-screen relative">

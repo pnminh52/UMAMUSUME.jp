@@ -15,12 +15,12 @@ const NewsFilter = ({ onFilter }) => {
       <select 
         value={selectedTag}
         onChange={handleChange} 
-        className='border rounded-xl border-gray-300 w-full h-12 px-2'
+        className='border bg-white rounded-lg border-gray-400 w-full h-12 px-2'
       >
         <option value="">All</option>
-        <option value="News">News</option>
-        <option value="Game">Game</option>
-        <option value="Media">Media</option>
+        <option value="全て">全て</option>
+        <option value="Game">GAME</option>
+        <option value="Media">MEDIA</option>
       </select>
     </div>
   )
