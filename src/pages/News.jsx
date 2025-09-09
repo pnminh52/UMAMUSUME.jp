@@ -15,7 +15,7 @@ const News = () => {
 
   const handleFilterChange = (tag) => {
     setFilterTag(tag)
-    setVisibleCount(10) // reset lại số lượng hiển thị khi đổi filter
+    setVisibleCount(10) 
   }
 
   const filteredNews = filterTag 

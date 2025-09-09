@@ -26,7 +26,7 @@ const Header = () => {
         { label: "Character", path: "/character" },
         { label: "Special", path: "/special" },
         { label: "Goods", path: "/goods" },
-        { label: "Webstore", path: "/webstore" },
+        { label: "Webstore", path: "/https://webstore.cygames.com/umamusume/" },
     ];
     useEffect(() => {
         if (showPopup) {

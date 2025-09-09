@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 
 // hook
 export const useNews = () => {
-  const apiUrl = process.env.REACT_APP_API_URL || "https://umajson.onrender.com"
+  const apiUrl =  import.meta.env.VITE_API_URL 
+  // const apiUrl =  import.meta.env.VITE_API_URL || "https://umajson.onrender.com"
+
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

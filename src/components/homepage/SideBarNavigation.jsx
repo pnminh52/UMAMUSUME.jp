@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const SideBarNavigation = () => {
   const navigate=useNavigate()
   const [isScrolled, setIsScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
+  const options = ["Contents Top", "Game", "Anime", "Music", "Comics", "Event"];
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -52,19 +54,74 @@ const SideBarNavigation = () => {
             src="https://umamusume.jp/_nuxt/images/bg_blue-B32GXg9I.jpg"
             alt=""
           />
-          <ul className="absolute left-8 top-34 space-y-3.5">
-           
-              <li onClick={()=>navigate("/news")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} News </li>
-              <li onClick={()=>navigate("/about")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} About</li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Contents +</li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Character</li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Special</li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Goods</li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Webstore {svg2}</li>
+         
+         <ul className="absolute top-34 left-8 space-y-3.5">
+      <li
+        onClick={() => navigate("/news")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} News
+      </li>
+      <li
+        onClick={() => navigate("/about")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} About
+      </li>
 
-          
-          </ul>
-          <p className="absolute left-4 text-[12px] text-white cursor-pointer bottom-40 rotate-90 space-y-5">
+      {/* Dropdown */}
+      <li
+        onClick={() => setOpen(!open)}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} Contents +
+      </li>
+      {open && (
+        <ul className="pl-4 space-y-2 transition-all duration-300">
+          {options.map((item) => (
+            <li
+              key={item}
+              className="text-white cursor-pointer font-semibold italic"
+              onClick={() => {
+                console.log(item);
+                setOpen(false);
+              }}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <li
+        onClick={() => navigate("/")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} Character
+      </li>
+      <li
+        onClick={() => navigate("/")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} Special
+      </li>
+      <li
+        onClick={() => navigate("/")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} Goods
+      </li>
+      <li
+        onClick={() => navigate("https://webstore.cygames.com/umamusume/")}
+        className="flex items-center text-xl w-35 gap-2 cursor-pointer font-bold italic text-white group"
+      >
+        {svg} Webstore {svg2}
+      </li>
+    </ul>
+        {
+          !open &&(
+          <div>
+              <p className="absolute left-4 text-[12px] text-white cursor-pointer bottom-40 rotate-90 space-y-5">
             Official SNS
           </p>
           <ul className="absolute left-8 bottom-6 space-y-2">
@@ -90,9 +147,12 @@ const SideBarNavigation = () => {
               </li>
             ))}
           </ul>
+          </div>
+          )
+        }
         </div>
       </div>
-     {/* <SideBarNavigationMobile  isScrolled={isScrolled}/> */}
+  
     </div>
   );
 };
