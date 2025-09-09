@@ -6,7 +6,7 @@ const Loader = ({ onComplete }) => {
   const [percent, setPercent] = useState(0);
 
   useEffect(() => {
-    if (location.pathname !== "/") return;
+    // if (location.pathname !== "/") return;
 
     let interval = setInterval(() => {
       setPercent((prev) => {
@@ -20,10 +20,10 @@ const Loader = ({ onComplete }) => {
     }, 20);
 
     return () => clearInterval(interval);
-  }, [location.pathname, onComplete]);
+  }, [onComplete]);
 
   // Không hiện loader ngoài trang "/"
-  if (location.pathname !== "/") return null;
+  // if (location.pathname !== "/") return null;
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50">
