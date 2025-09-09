@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 // hook
 export const useNews = () => {
+  const apiUrl = process.env.REACT_APP_API_URL
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -9,7 +10,7 @@ export const useNews = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const res = await fetch("http://localhost:3000/news"); 
+        const res = await fetch(`${apiUrl}/news`); 
         if (!res.ok) throw new Error("Failed to fetch news");
         const data = await res.json();
   
