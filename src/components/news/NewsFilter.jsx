@@ -17,8 +17,7 @@ const NewsFilter = ({ onFilter }) => {
         onChange={handleChange} 
         className='border bg-white rounded-lg border-gray-400 w-full h-12 px-2'
       >
-        <option value="">All</option>
-        <option value="全て">全て</option>
+        <option value="">全て</option>
         <option value="Game">GAME</option>
         <option value="Media">MEDIA</option>
       </select>

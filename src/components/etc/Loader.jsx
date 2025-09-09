@@ -23,7 +23,7 @@ const Loader = ({ onComplete }) => {
   }, [location.pathname, onComplete]);
 
   // Không hiện loader ngoài trang "/"
-  // if (location.pathname !== "/") return null;
+  if (location.pathname !== "/") return null;
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50">
