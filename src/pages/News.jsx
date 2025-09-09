@@ -26,16 +26,18 @@ const News = () => {
 
   return (
     <div>
-      <div className="bg-gray-100 px-4 space-y-8 py-8">
+      <div className="bg-gray-100  space-y-8 py-8">
         <Title />
+        <div className='space-y-8 px-4 sm:px-90'>
         <NewsFilter onFilter={handleFilterChange} />
         <Contents news={visibleNews} />
+        </div>
 
         {visibleCount < filteredNews.length && (
           <div className="w-full flex justify-center">
             <button
               onClick={() => setVisibleCount(prev => prev + 10)}
-              className="bg-[#73788C] border-3 border-gray-300 h-12 px-30 font-semibold italic text-xl text-white rounded-full"
+              className="bg-[#73788C] cursor-pointer border-3 border-gray-300 h-12 px-30 font-semibold italic text-xl text-white rounded-full"
             >
               More
             </button>
