@@ -30,19 +30,20 @@ const Section3 = () => {
         <div>
             <div className='block sm:hidden'>
                 <div className=' z-23  relative bg-[#FF6ECB]'>
+                <div className="w-50 h-6 bg-gray-200 transform -rotate-30 opacity-55 right-0 top-40 absolute skew-x-38"></div>
+                <div className="w-50 h-6 bg-gray-200 transform -rotate-30 opacity-55 bottom-0 right-0 absolute skew-x-38"></div>
 
                     <div className="absolute  rotate-180 top-0 left-0 w-0 h-0 
                           border-l-[200px] border-l-transparent 
                           border-b-[100px] border-b-[#FFEE48]">
+                  
                     </div>
                     <div className="absolute top-12 left-8 space-y-4">
   <div className="flex items-center">
     <div className="relative inline-block">
-      <p className="text-sm text-[#FF6ECB] font-semibold bg-white pr-8 py-3">
+      <p className="text-sm text-[#FF6ECB] font-semibold bg-white px-4 py-1">
         <span className="text-lg">「ウマ娘」</span>とは？
       </p>
-      {/* ô vuông xoay 45° tạo góc vát */}
-      <div className="absolute top-1/2 right-0 w-10 h-10 bg-[#FF6ECB] rotate-45 -translate-y-1/2 translate-x-1/2"></div>
     </div>
   </div>
 
