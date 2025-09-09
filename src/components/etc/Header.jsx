@@ -42,7 +42,7 @@ const Header = () => {
         <div>
             <div className="block sm:hidden">
                 {/* Thanh header */}
-                <div className="h-18 bg-[#0F5AFF]    flex justify-between px-4 items-center">
+                <div className="h-14 bg-[#0F5AFF]    flex justify-between px-4 items-center">
                     {/* Logo */}
 
                     <svg
@@ -81,7 +81,7 @@ const Header = () => {
 
                 {/* Popup menu */}
                 {showPopup && (
-                    <div className="fixed  inset-0 z-[999] top-16">
+                    <div className="fixed  inset-0 z-[999] top-13">
                         <div className="bg-[#0F5AFF] w-full h-full p-4 relative">
                             <ul className="px-4 py-0 mb-8">
                                 {menuItems.map((item) => (
@@ -109,7 +109,7 @@ const Header = () => {
             </div>
             {location.pathname !== "/" && (
                 <div className="hidden sm:block">
-                    <div className="h-18 bg-[#0F5AFF] px-8 flex justify-between itemd-center ">
+                    <div className="h-14 bg-[#0F5AFF] px-8 flex justify-between itemd-center ">
                         <svg
                             className="w-70 cursor-pointer hover:opacity-50 transition duration-300 ease-in-out"
                             onClick={()=>navigate("/")}

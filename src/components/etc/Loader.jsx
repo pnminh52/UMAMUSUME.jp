@@ -28,7 +28,7 @@ const Loader = ({ onComplete }) => {
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50">
       <img
-        className="w-50"
+        className="w-70"
         src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/69446b91ccca41efb945cf7a3c69431a/32_agnestachyon.webp"
         alt="Loader"
       />

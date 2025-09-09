@@ -37,7 +37,7 @@ const News = () => {
           <div className="w-full flex justify-center">
             <button
               onClick={() => setVisibleCount(prev => prev + 10)}
-              className="bg-[#73788C] cursor-pointer border-3 border-gray-300 h-12 px-30 font-semibold italic text-xl text-white rounded-full"
+              className="bg-[#73788C] hover:scale-95 transition duration-300 ease-in-out cursor-pointer border-3 border-gray-300 h-12 px-30 font-semibold italic text-xl text-white rounded-full"
             >
               More
             </button>

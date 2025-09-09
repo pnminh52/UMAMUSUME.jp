@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import SideBarNavigationMobile from './SideBarNavigationMobile';
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 const SideBarNavigation = () => {
@@ -56,7 +55,7 @@ const SideBarNavigation = () => {
           <ul className="absolute left-8 top-34 space-y-3.5">
            
               <li onClick={()=>navigate("/news")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} News </li>
-              <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} About</li>
+              <li onClick={()=>navigate("/about")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} About</li>
               <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Contents +</li>
               <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Character</li>
               <li onClick={()=>navigate("/")} className={`flex items-center text-xl w-35  gap-2 cursor-pointer font-bold italic text-white group `}>{svg} Special</li>

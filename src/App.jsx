@@ -4,6 +4,7 @@ import Loader from "./components/etc/Loader";
 import { useState, useEffect } from "react";
 import News from "./pages/News";
 import UserLayout from "./layouts/UserLayout";
+import About from "./pages/About";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,8 @@ function App() {
           <Route path="/" element={<UserLayout />}>
             <Route index element={<Homepage />} />
             <Route path="news" element={<News />} />
+            <Route path="about" element={<About />} />
+
           </Route>
         </Routes>
       )}

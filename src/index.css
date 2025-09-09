@@ -3,6 +3,18 @@
 .hide-scrollbar {
     overflow: hidden;
   }
+  .scroll-vertical {
+    animation: scrollVertical 80s linear infinite;
+  }
+  
+  @keyframes scrollVertical {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
   
   /* Ẩn scrollbar cho mọi trình duyệt */
   .hide-scrollbar::-webkit-scrollbar {
