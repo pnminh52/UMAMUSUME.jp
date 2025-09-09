@@ -2,6 +2,7 @@ import React from "react";
 import Card1 from "./../card/Card1";
 import Card5 from "../card/Card5";
 import Card6 from "../card/Card6";
+import { Link } from "react-router-dom";
 
 const Table1 = () => {
   return (
@@ -19,9 +20,10 @@ const Table1 = () => {
               <Card1 />
             </div>
             <div className="w-full flex justify-center ">
-              <button className="bg-[#FF79D0] shadow-lg hover:scale-95 transition duration-300 ease-in-out text-lg italic border-2 border-pink-400  text-white font-semibold w-70 h-10 rounded-full cursor-pointer ">
+             <Link to={"/news"}>
+             <button className="bg-[#FF79D0] shadow-lg hover:scale-95 transition duration-300 ease-in-out text-lg italic border-2 border-pink-400  text-white font-semibold w-70 h-10 rounded-full cursor-pointer ">
                 View more
-              </button>
+              </button></Link>
             </div>
           </div>
           <div className="w-[50%] flex flex-col gap-10 sm:gap-20">
@@ -47,9 +49,10 @@ const Table1 = () => {
 
       {/* Button */}
       <div className="w-full flex justify-center">
+        <Link to={"news"}>
         <button className="bg-[#FF79D0] shadow-lg hover:scale-95 transition duration-300 ease-in-out text-lg italic border-2 border-pink-400 text-white font-semibold w-70 h-10 rounded-full cursor-pointer">
           View more
-        </button>
+        </button></Link>
       </div>
     </div>
 
