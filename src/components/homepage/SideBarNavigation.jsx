@@ -7,7 +7,35 @@ const SideBarNavigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
-  const options = ["Contents Top", "Game", "Anime", "Music", "Comics", "Event"];
+
+
+  const options = [
+    { label: "Contents Top", path: "topContents" },
+    { label: "Game", path: "game" },
+    { label: "Anime", path: "video" }, 
+    { label: "Music", path: "music" },
+    { label: "Comics", path: "comics" },
+    { label: "Event", path: "event" },
+  ];
+  
+  {open && (
+    <ul className="pl-4 space-y-2 transition-all duration-300">
+      {options.map((item) => (
+        <li
+          key={item.path}
+          className="text-white cursor-pointer font-semibold italic"
+        >
+          <Link
+            to={`/contents/${item.path}`}
+            onClick={() => setOpen(false)}
+          >
+            {item.label}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  )}
+  
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -77,21 +105,22 @@ const SideBarNavigation = () => {
         {svg} Contents +
       </li>
       {open && (
-        <ul className="pl-4 space-y-2 transition-all duration-300">
-          {options.map((item) => (
-            <li
-              key={item}
-              className="text-white cursor-pointer font-semibold italic"
-              onClick={() => {
-                console.log(item);
-                setOpen(false);
-              }}
-            >
-              {item}
-            </li>
-          ))}
-        </ul>
-      )}
+  <ul className="pl-4 space-y-2 transition-all duration-300">
+    {options.map((item) => (
+      <li
+        key={item.path}
+        className="text-white cursor-pointer font-semibold italic"
+      >
+        <Link
+          to={`/contents/${item.path}`}
+          onClick={() => setOpen(false)}
+        >
+          {item.label}
+        </Link>
+      </li>
+    ))}
+  </ul>
+)}
 
       <li
         onClick={() => navigate("/")}
