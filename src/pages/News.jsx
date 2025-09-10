@@ -4,13 +4,14 @@ import Contents from './../components/news/Contents';
 import NewsFilter from './../components/news/NewsFilter';
 import Title from './../components/news/Title';
 import { useNews } from '../hooks/useNews';
+import Loader from './../components/etc/Loader';
 
 const News = () => {
   const { news, loading, error } = useNews()
   const [filterTag, setFilterTag] = useState("")
   const [visibleCount, setVisibleCount] = useState(10)
 
-  if (loading) return <p></p>
+  if (loading) return <><Loader /></>
   if (error) return <p>{error}</p>
 
   const handleFilterChange = (tag) => {
