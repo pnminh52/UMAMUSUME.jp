@@ -78,7 +78,7 @@ const Mobile = () => {
     <div className="flex flex-col gap-2">
     
     <div className="w-full px-2">
-  <div className="h-full flex justify-center items-center">
+  <div className="h-full flex justify-center items-center relative">
     <video
       key={currentVideo.id}
       autoPlay
@@ -88,8 +88,19 @@ const Mobile = () => {
     >
       <source src={currentVideo.url} type="video/mp4" />
     </video>
+
+    <div className="absolute bottom-4 left-4 flex flex-col text-white italic">
+      <span className="text-4xl">{currentVideo.tag}</span>
+      {listTab.find((tab) => tab.name === currentVideo.tag) && (
+        <span className="text-xl">
+          {listTab.find((tab) => tab.name === currentVideo.tag).title}
+        </span>
+      )}
+    </div>
   </div>
 </div>
+
+
 
 
 

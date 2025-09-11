@@ -20,6 +20,7 @@ const Header = () => {
         </svg>
     );
       const [openDropdown, setOpenDropdown] = useState(false);
+      const [openDropdownMobile, setOpenDropdownMobile] = useState(false);
     const menuItems = [
         { label: "News", path: "/news" },
         { label: "About", path: "/about" },
@@ -97,12 +98,39 @@ const Header = () => {
                                     <li key={item.label}>
                                         <Link
                                             to={item.path}
-                                            onClick={() => setShowPopup(false)}
+                                            onClick={() => {
+                                                if (item.label === "Contents") {
+                                                  setOpenDropdownMobile(!openDropdownMobile);
+                                                } else {
+                                                  setShowPopup(false);
+                                                  navigate(item.path);
+                                                }
+                                              }}
                                             className="gap-2 text-white text-3xl font-semibold italic border-b h-16 border-white flex items-center"
                                         >
-                                            {umaSvg}
-                                            {item.label}
+                                               <div
+            
+              className="gap-2 text-white text-3xl font-semibold italic border-b h-16 border-white flex items-center cursor-pointer"
+            >
+              {umaSvg}
+              {item.label}
+            </div>
                                         </Link>
+                                        {item.label === "Contents" && openDropdownMobile && (
+              <ul className="flex flex-col pl-0 italic ">
+                {options.map((opt) => (
+                  <li key={opt.label} className="">
+                    <Link
+                      to={`/contents/${opt.path}`}
+                      onClick={() => setShowPopup(false)}
+                      className="text-white text-lg py-2 px-6 border-b font-semibold block"
+                    >
+                      {opt.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
                                     </li>
                                 ))}
                             </ul>
