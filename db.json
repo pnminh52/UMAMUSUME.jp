@@ -1,5 +1,5 @@
 {
-   "news":[
+  "news": [
     {
       "id": 1212,
       "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2754/Thumbnail/announce_banner_3368.png?c=20250908121928",
@@ -22,67 +22,99 @@
       "title": "イベント「アグネスタキオンの因子研究」開催中！"
     },
     {
-        "id": 1,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2733/Thumbnail/announce_banner_3366.png?c=20250825121615",
-        "tag": "Game",
-        "date": "2025.09.01  12:00",
-        "title": "トゥインクルコレクション プリティーダービーガチャとSSR確定スタミナガチャ開催！"
-      },
-      {
-        "id": 2,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2739/Thumbnail/banner_60300023.png?c=20250825183926",
-        "tag": "Game",
-        "date": "2025.09.01  12:00",
-        "title": "一部育成ウマ娘に進化スキル追加！"
-      },
-      {
-        "id": 1231,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2738/Thumbnail/banner_30200455.png?c=20250825175905",
-        "tag": "Game",
-        "date": "2025.09.04  12:00",
-        "title": "レジェンドレース開催！"
-      },
-      {
-        "id": 58745,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2719/Thumbnail/banner_214300001.png?c=20250904185655",
-        "tag": "Game",
-        "date": "2025.08.27  12:00",
-        "title": "「めにしゅき♡ラッシュっしゅ！」ライブ公開＆新衣装追加！"
-      },
-      {
-        "id": 3,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2731/Thumbnail/announce_banner_3364.png?c=20250825121706",
-        "tag": "Game",
-        "date": "2025.08.29 12:00",
-        "title": "育成ウマ娘&サポートカード新登場！ピックアップガチャ開催！"
-      },
-      {
-        "id": 8162,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2735/Thumbnail/banner_30100092.png?c=20250829123755",
-        "tag": "Game",
-        "date": "2025.08.29 12:00",
-        "title": "ストーリーイベント「ことば・こころ・ひびけ」開催！"
-      },
-      {
-        "id": 2362573,
-        "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2734/Thumbnail/banner_30100091.png?c=20250825171127",
-        "tag": "Game",
-        "date": "2025.08.28 12:00",
-        "title": "ストーリーイベント「ことば・こころ・ひびけ」開催決定"
-      },
-      {
-        "id": 3,
-        "imgUrl": null,
-        "tag": "Game",
-        "date": "2025.08.28 12:00",
-        "title": "アップデートのお知らせ【8/28 11:00公開】"
-      },
-      {
-        "id": 4,
-        "imgUrl": null,
-        "tag": "Media",
-        "date": "2025.08.28 18:00",
-        "title": "「トゥインクルコレクション プリティーダービー」開催！"
-      }
-   ]
+      "id": 1,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2733/Thumbnail/announce_banner_3366.png?c=20250825121615",
+      "tag": "Game",
+      "date": "2025.09.01  12:00",
+      "title": "トゥインクルコレクション プリティーダービーガチャとSSR確定スタミナガチャ開催！"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2739/Thumbnail/banner_60300023.png?c=20250825183926",
+      "tag": "Game",
+      "date": "2025.09.01  12:00",
+      "title": "一部育成ウマ娘に進化スキル追加！"
+    },
+    {
+      "id": 1231,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2738/Thumbnail/banner_30200455.png?c=20250825175905",
+      "tag": "Game",
+      "date": "2025.09.04  12:00",
+      "title": "レジェンドレース開催！"
+    },
+    {
+      "id": 58745,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2719/Thumbnail/banner_214300001.png?c=20250904185655",
+      "tag": "Game",
+      "date": "2025.08.27  12:00",
+      "title": "「めにしゅき♡ラッシュっしゅ！」ライブ公開＆新衣装追加！"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2731/Thumbnail/announce_banner_3364.png?c=20250825121706",
+      "tag": "Game",
+      "date": "2025.08.29 12:00",
+      "title": "育成ウマ娘&サポートカード新登場！ピックアップガチャ開催！"
+    },
+    {
+      "id": 8162,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2735/Thumbnail/banner_30100092.png?c=20250829123755",
+      "tag": "Game",
+      "date": "2025.08.29 12:00",
+      "title": "ストーリーイベント「ことば・こころ・ひびけ」開催！"
+    },
+    {
+      "id": 2362573,
+      "imgUrl": "https://prd-info-umamusume.akamaized.net/announce/2734/Thumbnail/banner_30100091.png?c=20250825171127",
+      "tag": "Game",
+      "date": "2025.08.28 12:00",
+      "title": "ストーリーイベント「ことば・こころ・ひびけ」開催決定"
+    },
+    {
+      "id": 3,
+      "imgUrl": null,
+      "tag": "Game",
+      "date": "2025.08.28 12:00",
+      "title": "アップデートのお知らせ【8/28 11:00公開】"
+    },
+    {
+      "id": 4,
+      "imgUrl": null,
+      "tag": "Media",
+      "date": "2025.08.28 18:00",
+      "title": "「トゥインクルコレクション プリティーダービー」開催！"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "img": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/c61111b30d614e80a726e967e74335a9/game-game_system.jpg?fm=webp",
+      "title": "ゲームシステム",
+      "des": "Game system"
+    },
+    {
+      "id": 2,
+      "img": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/2d7c4565feed4c7dbcbda868f9cc9ba1/game-scenario.png?fm=webp",
+      "title": "育成シナリオ",
+      "des": "Scenario"
+    },
+    {
+      "id": 3,
+      "img": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/a6a645fc3db94694bb6375c9028abf0f/game_mainstory.png?fm=webp",
+      "title": "メインストーリー",
+      "des": "Main story"
+    },
+    {
+      "id": 4,
+      "img": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/f8e88aec2ff54d99af5a2c94df8b2139/game_04.jpg?fm=webp",
+      "title": "レースイベント",
+      "des": "Race event"
+    },
+    {
+      "id": 5,
+      "img": "https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/eeecec84cb524adfb3694f6ec0420235/game-live_theater.png?fm=webp",
+      "title": "ライブシアター",
+      "des": "Live theater"
+    }
+  ]
 }

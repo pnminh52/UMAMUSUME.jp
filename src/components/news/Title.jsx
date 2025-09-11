@@ -9,7 +9,7 @@ const Title = () => {
     '/news': { text: 'News 新着情報', color: '#FF6CCE' },
     '/about': { text: 'About 私たちについて', color: '#0F5AFF' },
     '/contents/video': { text: 'Anime アニメ', color: '#FFA500' },
-    '/contents/game': { text: 'Game ゲーム', color: '#00FF00' },
+    '/contents/game': { text: 'Game ゲーム', color: '#A1A4BD' },
     '/contents/music': { text: 'Music 音楽', color: '#800080' },
     '/contents/comics': { text: 'Comics 漫画', color: '#FF4500' },
     '/contents/event': { text: 'Event イベント', color: '#1E90FF' },

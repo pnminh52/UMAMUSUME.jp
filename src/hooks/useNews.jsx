@@ -13,8 +13,7 @@ export const useNews = () => {
       try {
         const res = await fetch(`${apiUrl}/news`);
         const text = await res.text();
-        console.log(text); // xem server trả gì
-        const data = JSON.parse(text); // sẽ fail nếu text không phải JSON
+        const data = JSON.parse(text); 
         
   
         setNews(data); 

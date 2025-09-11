@@ -100,6 +100,7 @@ const Header = () => {
                                             to={item.path}
                                             onClick={() => {
                                                 if (item.label === "Contents") {
+                                                   
                                                   setOpenDropdownMobile(!openDropdownMobile);
                                                 } else {
                                                   setShowPopup(false);
