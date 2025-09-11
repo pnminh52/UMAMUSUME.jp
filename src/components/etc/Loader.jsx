@@ -27,8 +27,7 @@ const Loader = ({ onComplete }) => {
         src="https://images.microcms-assets.io/assets/973fc097984b400db8729642ddff5938/69446b91ccca41efb945cf7a3c69431a/32_agnestachyon.webp"
         alt="Loader"
       />
-      <p className="text-xl font-semibold italic mt-0">読み込み中 </p>
-     
+      <p className="text-xl font-semibold italic mt-0">読み込み中</p>
     </div>
   );
 };

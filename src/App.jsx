@@ -33,7 +33,7 @@ function App() {
             <Route path="news" element={<News />} />
             <Route path="about" element={<About />} />
             <Route path="contents" element={<Contents />}>
-              <Route path="video" element={<Anime />} />
+              <Route path="anime" element={<Anime />} />
               <Route path="comics" element={<Comics />} />
               <Route path="game" element={<Game />} />
               <Route path="event" element={<Event/>} />
