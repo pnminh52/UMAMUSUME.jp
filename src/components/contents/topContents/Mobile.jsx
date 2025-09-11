@@ -77,22 +77,20 @@ const Mobile = () => {
   return (
     <div className="flex flex-col gap-2">
     
-     <div className="w-[full] px-2">
-     <div className="  h-full flex justify-center items-center">
-       
-       <video
-       key={currentVideo.id}
-       
-       autoPlay
-       loop
-       className="w-full rounded-xl h-auto "
-     >
-       <source src={currentVideo.url} type="video/mp4" />
-     </video>
-     
-           
-           </div>
-     </div>
+    <div className="w-full px-2">
+  <div className="h-full flex justify-center items-center">
+    <video
+      key={currentVideo.id}
+      autoPlay
+      loop
+      muted
+      className="w-full aspect-square rounded-xl object-cover"
+    >
+      <source src={currentVideo.url} type="video/mp4" />
+    </video>
+  </div>
+</div>
+
 
 
 
